@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #121212;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.body {
+  padding: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.header {
+  background: url("../Assets/Images/1") no-repeat center;
+  background-size: cover;
+}
+
+/* Typography */
+
+.header-pretitle {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.site-title,
+.join-now,
+.chat h2 {
+  font-family: "BenchNine", sans-serif;
+}
+
+.site-title {
+  font-size: 14rem;
+  font-weight: 800;
+  display: block;
+  color: #abc9f4;
+  margin-bottom: 0.5em;
+}
+
+/* content */
+
+.container-header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.white-accent {
+  color: white;
+}
+
+.blue-accent {
+  color: #abc9f4;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.join-now {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 3rem;
+  background: #373535;
+  padding: 0.25em 0.5em;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+
+.join-now:hover,
+.join-now:focus {
+  background: #fe8a5a;
+}
+
+header .join-now {
+  margin-bottom: 1.2em;
+}
+
+.chat {
+  background: url("../Assets/Images/2") no-repeat center;
+  position: relative;
+}
+
+.chat h2 {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-25%, -50%);
+  font-weight: 800;
+  font-size: 7rem;
+}
+
+.randomness {
+  background: url("../Assets/Images/3") no-repeat center;
+}
+
+.randomness-left-maintain {
+  width: 55%;
+}
+
+.randomness h2 {
+  text-align: right;
+  display: block;
+  padding: 2em 0;
+  font-weight: 800;
+  font-size: 6rem;
+}
+
+.fun h2 {
+  text-align: center;
+  display: block;
+  margin-bottom: 0;
+  font-weight: 800;
+  font-size: 7rem;
+}
+
+.fun img {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.waiting {
+  margin-top: 7em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.waiting h2 {
+  text-align: right;
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+.waiting a {
+  display: block;
+  text-align: center;
+  margin-top: 0.5em;
+}
